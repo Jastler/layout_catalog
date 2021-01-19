@@ -1,8 +1,8 @@
 @import "variables";
 
 .product__cards {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4,auto);
   justify-content: space-between;
   width: (($card_size + $card_margin_right) * 4) - $card_margin_right;
 
