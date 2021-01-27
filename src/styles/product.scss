@@ -3,6 +3,11 @@
   &__cards {
     display: grid;
     grid-template-columns: repeat(4,auto);
+    gap: 50px 48px;
+
+    margin: 0 auto;
+    justify-items: center;
+    
     width: (($card-size + $card-margin-right) * 4) - $card-margin-right;
   }
 }
